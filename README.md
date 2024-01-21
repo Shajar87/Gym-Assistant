@@ -12,21 +12,19 @@ The Gym Assistant project is designed to assist individuals during their workout
 
 - **OpenCV Integration:** OpenCV is seamlessly integrated to handle video input, process frames, and overlay visual cues on the video feed.
 
-- **User-Friendly Interface:** The project aims for simplicity, with an easy-to-understand interface that displays the live video feed, the count of curls, and any relevant feedback.
+- **User-Friendly Interface:** The project aims for simplicity, with an easy-to-understand interface that displays the live video feed, the count of curls, and the correctness of the curl using a container which displays the percentage of the up and down movement.
 
 ## How It Works
 
-1. **Pose Detection:** The assistant detects the pose of the user, identifying key body landmarks such as shoulders, elbows, and wrists.
+1. **Pose Detection:** The assistant detects the pose of the user, identifying key body landmarks such as shoulders, elbows, and wrists using a pre-trained model by MediaPipe.
 
 2. **Curl Tracking:** By analyzing the movement of the detected landmarks, the system determines when a curl is initiated and completed.
 
-3. **Real-Time Display:** The live video feed is augmented with overlays, showcasing the count of curls as the user performs the exercise.
-
-4. **Feedback:** Users receive immediate feedback on their performance, fostering engagement and motivation during workouts.
+3. **Real-Time Display:** The live video feed is augmented with overlays, showcasing the count of curls and the correctness of the curl using precnetage container.
 
 ## Getting Started
 
-1. **Installation:** Clone the repository and install the required dependencies using the provided instructions.
+1. **Installation:** Clone the repository and install the required dependencies using requirements.txt file.
 
 2. **Run the Assistant:** Execute the script to start the Gym Assistant and begin tracking curls during your workout.
 
